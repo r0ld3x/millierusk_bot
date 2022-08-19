@@ -1,0 +1,76 @@
+start: |
+  Hello <a href="tg://user?id={id}">{name}</a>!
+  I am <a href="https://t.me/MillieRusk_bot">Millie</a> from <a href="https://t.me/roldexverse">RoldexVerse</a>
+  hit /cmds to chek my all Available commands.
+
+
+ping: |
+  **Pong!** `{pong}ms`
+  **Uptime**: `{uptime}`
+
+
+info: |
+  **User Information**
+  **Username**: [{name}](tg://user?id={id})
+  **ID**: `{id}`
+  **Status**: `{status}`
+  **Language**: `{lang}`
+  **Joined**: `{joined}`
+  **Last seen**: `{lastseen}`
+  **Profile**: [{profile}](tg://user?id={id})
+  **Bio**: `{bio}`
+  **Photo**: [{photo}](tg://user?id={id})
+  **Verified**: `{verified}`
+  **Restricted**: `{restricted}`
+  **Bot**: `{bot}`
+  **Admin**: `{admin}`
+  **Owner**: `{owner}`
+  **Support**: `{support}`
+  **Developer**: `{developer}`
+  **Creator**: `{creator}`
+  **Channel**: `{channel}`
+  **Group**: `{group}`
+  **SuperGroup**: `{supergroup}`
+  **Muted**: `{muted}`
+  **Banned**: `{banned}`
+  **Muted in**: `{mutedin}`
+  **Banned in**: `{bannedin}`
+
+
+ipinfo: |
+  **IP Information**
+  **Ip**: `{ip}`
+  **Country**: `{country}`
+  **City**: `{city}`
+  **Region**: `{region}`
+  **Country**: `{country}`  
+  **Postal**: `{postal}`
+  **Anycast**: `{anycast}`
+  **Latitude**: `{lati}`
+  **Longitude**: `{long}`
+  **Timezone**: `{timezone}`
+  **Organization**: `{org}`
+  **Host** Name: `{hostname}`
+
+card_chk: 
+  fir_msg: |
+    <b><a href="tg://user?id={id}">{name}</a> Wait checking your card. </b>
+    <b>[×] ■■□□□□□□□□ 20%</b>
+    <b>[×] Elapsed</b>: <b>{taken}'s</b>
+
+  mid_msg: |
+    <b><a href="tg://user?id={id}">{name}</a> Wait checking your card. </b>
+    <b>[×] ■■■■■□□□□□ 50%</b>
+    <b>[×] Elapsed</b>: <b>{taken}'s</b>
+  
+  fin_msg: |
+    <b>[×] Gate</b>: <b>{gate_name}</b>
+    <b>[×] Card</b>: <code>{card}</code>
+    <b>[×] Status</b>: <b>{status}</b> {logo}
+    <b>[×] Message</b>: <b>{message}</b>
+    <b>[×] Bin</b>: <b>{vendor}</b> - <b>{type}</b> - <b>{country}</b> {flag}
+    <b>[×] Bank</b>: <b>{bank_name}</b>
+    <b>[×] Took</b>: <b>{taken}</b>'s
+    <b>[×] User</b>: <a href="tg://user?id={id}">{name}</a> [<b>{role}</b>]
+    <b>[×] Host</b>: <a href="https://t.me/roldexverse">RoldexVerse</a>
+  
