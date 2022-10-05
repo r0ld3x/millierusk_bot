@@ -1,6 +1,6 @@
 start: |
   Hello <a href="tg://user?id={id}">{name}</a>!
-  I am <a href="https://t.me/MillieRusk_bot">Millie</a> from <a href="https://t.me/roldexverse">RoldexVerse</a>
+  I am <a href="https://t.me/demonccchkbot">DANI DANIELS</a> from <a href="https://t.me/hackingcourseschat">hackingcourseschat</a>
   hit /cmds to chek my all Available commands.
 
 
@@ -72,5 +72,5 @@ card_chk:
     <b>[×] Bank</b>: <b>{bank_name}</b>
     <b>[×] Took</b>: <b>{taken}</b>'s
     <b>[×] User</b>: <a href="tg://user?id={id}">{name}</a> [<b>{role}</b>]
-    <b>[×] Host</b>: <a href="https://t.me/roldexverse">RoldexVerse</a>
+    <b>[×] Host</b>: <a href="https://t.me/hackingcourseschat">hackingcourseschat</a>
   
