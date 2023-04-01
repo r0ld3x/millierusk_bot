@@ -24,7 +24,7 @@ from teleredis import RedisSession
 import redis
 
 from .config import get_list, get_str, get_int
-from .classes.aioredis import AioRedis
+from .classes.aredis import AioRedis
 from .classes.redis import Redis
 from .classes.jocastaclient import JocastaClient
 from telethon.sessions import StringSession
