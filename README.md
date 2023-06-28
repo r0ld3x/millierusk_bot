@@ -8,6 +8,8 @@ install requirements.txt - `pip install -r requirements.txt`
 - `sudo bash start.sh`- if linux
 - `python3 -m mills`
 
+## VIDEO TUTORIAL
+ - https://anonfiles.com/Uas3Z3ybze/20221005_034657_mp4
 
 Hello Pros
 
